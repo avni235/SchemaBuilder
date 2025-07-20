@@ -1,69 +1,79 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧩 JSON Schema Builder
 
-Currently, two official plugins are available:
+A dynamic and interactive JSON Schema Builder built with **ReactJS**, **TypeScript**, **ShadCN UI**, and **React Hook Form**. This tool allows users to construct complex JSON schemas through a user-friendly interface with support for nesting and real-time JSON previews.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔧 **Add/Edit/Delete Fields**: Create and manage schema fields dynamically.
+- 🧬 **Nested Structures**: Support for recursive nested fields.
+- 🧠 **React Hook Form Integration**: Seamless form state management.
+- 🧾 **Live JSON Preview**: View real-time updates of the JSON schema as you build.
+- 💅 **Modern UI**: Built using ShadCN and TailwindCSS for a clean and responsive design.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🖼️ Demo
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Check out the live demo: [Your Deployed App Link](https://your-deployment-link.vercel.app/)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚀 Getting Started
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Prerequisites
+
+- Node.js (v18+ recommended)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/json-schema-builder.git
+cd json-schema-builder
+npm install
+# or
+yarn install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Running the App
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run dev
+# or
+yarn dev
 ```
+
+Visit `http://localhost:5173` to view the application.
+
+## 🛠️ Tech Stack
+
+- ReactJS
+- TypeScript
+- ShadCN UI (Radix + TailwindCSS)
+- React Hook Form
+- Vite
+
+## 📁 Project Structure
+
+```
+├── src/
+│   ├── components/
+│   │   └── Schemabuilder.tsx
+|   |   └── Landingpage.tsx
+│   ├── App.tsx
+│   └── main.tsx
+├── public/
+├── README.md
+├── tsconfig.json
+└── package.json
+```
+
+## 📦 Build
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+## 🧑 Author
+
+**Your Name**  
+[GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_LINK)
