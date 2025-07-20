@@ -13,7 +13,7 @@ A dynamic and interactive JSON Schema Builder built with **ReactJS**, **TypeScri
 
 ## 🖼️ Demo
 
-Check out the live demo: [Your Deployed App Link](https://your-deployment-link.vercel.app/)
+Check out the live demo: [Link](https://schema-builder-alpha.vercel.app/)
 
 ## 🚀 Getting Started
 
@@ -25,8 +25,8 @@ Check out the live demo: [Your Deployed App Link](https://your-deployment-link.v
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/json-schema-builder.git
-cd json-schema-builder
+git clone https://github.com/avni235/SchemaBuilder.git
+cd SchemaBuilder
 npm install
 # or
 yarn install
@@ -73,7 +73,13 @@ npm run build
 yarn build
 ```
 
-## 🧑 Author
+## 🤝 About the Creator
 
-**Your Name**  
-[GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_LINK)
+Hi! I’m **Avneet Kaur**, a passionate full-stack developer and Fourth-year Computer Science student. I enjoy building modern, user-friendly web applications using technologies like **React**, **Next.js**, **Node.js**, and **PostgreSQL**. I'm also exploring the exciting world of **AI/ML** and love working on projects that solve real-world problems. I believe in continuous learning and enjoy collaborating on innovative ideas. Currently open to internship opportunities and tech collaborations.
+ 
+Feel free to connect with me:
+
+- 🌐 [Portfolio](https://avneet-kaur.framer.website)
+- 💼 [LinkedIn](https://linkedin.com/in/avneet-kaur2)
+
+---
