@@ -62,7 +62,7 @@ const SchemaBuilder = ({ fields, setFields }: { fields: Field[], setFields: (f: 
     setFields(deleteRecursive(fields));
   };
 
-  const renderFields = (fields: Field[], parentId?: string) =>
+  const renderFields = (fields: Field[], _parentId?: string) =>
   fields.map(field => (
     <div
       key={field.id}
