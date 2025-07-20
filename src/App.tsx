@@ -65,13 +65,10 @@ function SchemaBuilderPage() {
 
   return (
     <div className="relative min-h-screen bg-[#1a1c1f] text-white p-6 overflow-hidden">
-      {/* Decorative Random Boxes */}
       <div className="hidden md:block absolute top-10 left-60 w-24 h-24 bg-[#333] rounded-xl opacity-30 blur-xs animate-spin-slow"></div>
       <div className="hidden md:block absolute top-40 right-16 w-20 h-20 bg-[#444] rounded-xl opacity-30 blur-sm animate-bounce animate-spin-slow"></div>
       <div className="hidden md:block absolute bottom-10 right-40 w-28 h-28 bg-[#444] rounded-xl rotate-12 blur-xs opacity-30 animate-spin-slow"></div>
       <div className="hidden md:block absolute bottom-20 left-16 w-20 h-20 bg-[#333] rounded-xl opacity-30 blur-sm animate-bounce animate-spin-slow"></div>
-
-      {/* Custom animation for slow spin */}
       <style>
         {`
           @keyframes spin-slow {

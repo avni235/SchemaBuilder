@@ -18,7 +18,7 @@ const LandingPage = () => {
         </button>
       </div>
 
-      {/* Main content centered */}
+      {/* Main content */}
       <div className="flex-1 flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-4">
           JSON Schema<br />Builder
@@ -34,7 +34,6 @@ const LandingPage = () => {
         </button>
       </div>
 
-      {/* Decorative rotated squares - visible only on md and above */}
 <div className="hidden md:block absolute bottom-20 left-80 w-24 h-24 bg-[#4e4b4b] rotate-[30deg] rounded-xl opacity-20"></div>
 <div className="hidden md:block absolute bottom-28 right-20 w-20 h-20 bg-[#4e4b4b] rotate-[60deg] rounded-xl opacity-20"></div>
 <div className="hidden md:block absolute bottom-6 left-10 w-16 h-16 bg-[#514e4e] rotate-[45deg] rounded-xl opacity-25"></div>
