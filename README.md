@@ -5,11 +5,13 @@ A dynamic and interactive JSON Schema Builder built with **ReactJS**, **TypeScri
 
 ## ✨ Features
 
-- 🔧 **Add/Edit/Delete Fields**: Create and manage schema fields dynamically.
-- 🧬 **Nested Structures**: Support for recursive nested fields.
-- 🧠 **React Hook Form Integration**: Seamless form state management.
-- 🧾 **Live JSON Preview**: View real-time updates of the JSON schema as you build.
-- 💅 **Modern UI**: Built using ShadCN and TailwindCSS for a clean and responsive design.
+🔧 **Add/Edit/Delete Fields**: Create and manage schema fields dynamically.  
+🧬 **Nested Structures**: Support for recursive nested fields.  
+🧠 **React Hook Form Integration**: Seamless form state management.  
+🧾 **Live JSON Preview**: View real-time updates of the JSON schema as you build.  
+📋 **Copy to Clipboard**: Instantly copy the generated JSON with a single click.  
+💅 **Modern UI**: Built using ShadCN and TailwindCSS for a clean and responsive design.
+
 
 ## 🖼️ Demo
 
